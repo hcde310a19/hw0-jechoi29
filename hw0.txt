@@ -1,3 +1,21 @@
 # Description of your program (part 7)
+An English description of instructions for counting the number of words in a document:
+1. Start at the beginning of the document.
+2. Initialize the word count to zero.
+3. Go through individual characters (letters and whitespaces) one by one.
+    - If the character in front (or after) of the character you are looking at is a whitespace, increase the word count by one.
+    - If the character in front (or after) of the character you are looking at is a letter, do not increase the word count by one.
+4. Continue this process (repeat Step 3) until you reach the end of the document.
+5. If the character at the end of the document is a letter, increase the word count by one.
+
 
 # Reflection on writing your program (part 8)
+# Was the previous exercise easy or hard for you? What was satisfying or unsatisfying about trying to describe the instructions in English?
+# Also, it would help us if you would take a few sentences tell us what you want to get out of the course.
+I thought the exercise was not too easy or hard. It took some time to get my brain going.
+It got me thinking of how I would be able to approach this problem through code. I asked questions like "how do I know if this is a word"?
+I reasoned different cases and conditions, as I wrote the instructions, to verify whether I was solving the problem.
+It was satisfying to describe the instructions in English because I saw that it could be translated directly into code.
+And, it was good to practice this problem in English to understand the reasoning and steps behind the code.
+From this course, I would like to increase my technical skills so that I could further understand the possibilities of designed technology.
+I want to answer something meaningful with code by manipulating data and information.
