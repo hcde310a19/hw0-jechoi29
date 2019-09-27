@@ -1,12 +1,11 @@
 # Description of your program (part 7)
 An English description of instructions for counting the number of words in a document:
 1. Start at the beginning of the document.
-2. Initialize the word count to zero.
-3. Go through individual characters (letters and whitespaces) one by one.
+2. Go through individual characters (letters and whitespaces) one by one.
     - If the character in front (or after) of the character you are looking at is a whitespace, increase the word count by one.
     - If the character in front (or after) of the character you are looking at is a letter, do not increase the word count by one.
-4. Continue this process (repeat Step 3) until you reach the end of the document.
-5. If the character at the end of the document is a letter, increase the word count by one.
+3. Continue this process (repeat Step 2) until you reach the end of the document, keeping track of the word count.
+4. If the character at the end of the document is a letter, increase the word count by one.
 
 
 # Reflection on writing your program (part 8)
